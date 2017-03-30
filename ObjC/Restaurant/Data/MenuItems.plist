@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Item1</key>
+	<dict>
+		<key>name</key>
+		<string>SALMON DISH</string>
+		<key>ingredients</key>
+		<string>(salmon, lemon cucumber salt, asparagus)</string>
+		<key>image</key>
+		<string>photo_item3</string>
+		<key>price</key>
+		<string>$25</string>
+		<key>discount</key>
+		<string>EVERY SUNDAY GET 20% OFF</string>
+	</dict>
+	<key>Item2</key>
+	<dict>
+		<key>name</key>
+		<string>SMOKED SAUSAGE</string>
+		<key>ingredients</key>
+		<string>(smoked pork sausage, bahuette, cheese spread)</string>
+		<key>image</key>
+		<string>photo_item2</string>
+		<key>price</key>
+		<string>$30</string>
+	</dict>
+	<key>Item3</key>
+	<dict>
+		<key>name</key>
+		<string>BACON AND CHICKEN</string>
+		<key>ingredients</key>
+		<string>(baked bacon, chicken, potatos, vegetables)</string>
+		<key>image</key>
+		<string>photo_item1</string>
+		<key>price</key>
+		<string>$10</string>
+	</dict>
+	<key>Item4</key>
+	<dict>
+		<key>name</key>
+		<string>SMOKED SAUSAGE</string>
+		<key>ingredients</key>
+		<string>(smoked pork sausage, bahuette, cheese spread)</string>
+		<key>image</key>
+		<string>photo_item2</string>
+		<key>price</key>
+		<string>$45</string>
+	</dict>
+</dict>
+</plist>

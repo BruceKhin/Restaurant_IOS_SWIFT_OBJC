@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="KozGoPro-Light.otf">
+            <string>KozGoPro-Light</string>
+            <string>KozGoPro-Light</string>
+        </mutableArray>
+        <mutableArray key="KozGoPro-Medium.otf">
+            <string>KozGoPro-Medium</string>
+        </mutableArray>
+        <mutableArray key="KozGoPro-Regular.otf">
+            <string>KozGoPro-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="RestaurantWidget" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="150" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="zPH-yq-ACL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="999" id="fTa-Od-gYB"/>
+                                </constraints>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="menuItemCell" id="7u8-n6-hjg" customClass="MenuItemTableViewCell" customModule="RestaurantWidget">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7u8-n6-hjg" id="gYk-LY-1MS">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aEU-xm-igs">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </imageView>
+                                                <view alpha="0.85000002384185791" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQP-Cz-kQK">
+                                                    <rect key="frame" x="0.0" y="90" width="320" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSX-c3-uiv">
+                                                            <rect key="frame" x="8" y="8" width="254" height="15"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" priority="750" constant="254" id="d6M-2B-RoP"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="KozGoPro-Medium" family="Kozuka Gothic Pro" pointSize="15"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Ingredients label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlb-pR-QaJ">
+                                                            <rect key="frame" x="8" y="23" width="254" height="37"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" priority="750" constant="254" id="CoJ-HH-Drb"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="KozGoPro-Light" family="Kozuka Gothic Pro" pointSize="11"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCz-M3-oHw">
+                                                            <rect key="frame" x="262" y="0.0" width="50" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" priority="999" constant="50" id="fri-xD-vGG"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="KozGoPro-Light" family="Kozuka Gothic Pro" pointSize="19"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="NCz-M3-oHw" firstAttribute="top" secondItem="FQP-Cz-kQK" secondAttribute="top" id="2hK-6h-hiK"/>
+                                                        <constraint firstAttribute="trailing" secondItem="NCz-M3-oHw" secondAttribute="trailing" constant="8" id="DTp-LW-1rr"/>
+                                                        <constraint firstItem="eSX-c3-uiv" firstAttribute="top" secondItem="FQP-Cz-kQK" secondAttribute="top" constant="8" id="Ee7-Q4-2fx"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Wlb-pR-QaJ" secondAttribute="bottom" id="Ns3-jW-PZ0"/>
+                                                        <constraint firstItem="NCz-M3-oHw" firstAttribute="leading" secondItem="eSX-c3-uiv" secondAttribute="trailing" id="SWb-Yv-vGb"/>
+                                                        <constraint firstItem="eSX-c3-uiv" firstAttribute="leading" secondItem="FQP-Cz-kQK" secondAttribute="leading" constant="8" id="ZSi-eb-29j"/>
+                                                        <constraint firstItem="Wlb-pR-QaJ" firstAttribute="leading" secondItem="FQP-Cz-kQK" secondAttribute="leading" constant="8" id="dWE-0I-tjT"/>
+                                                        <constraint firstItem="Wlb-pR-QaJ" firstAttribute="top" secondItem="eSX-c3-uiv" secondAttribute="bottom" id="dgl-EO-fu6"/>
+                                                        <constraint firstItem="NCz-M3-oHw" firstAttribute="leading" secondItem="Wlb-pR-QaJ" secondAttribute="trailing" id="jKc-sn-Eqn"/>
+                                                        <constraint firstAttribute="bottom" secondItem="NCz-M3-oHw" secondAttribute="bottom" id="szP-cW-T8z"/>
+                                                        <constraint firstAttribute="height" constant="60" id="zQy-gg-FFL"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aif-7g-1CM">
+                                                    <rect key="frame" x="0.0" y="65" width="320" height="25"/>
+                                                    <color key="backgroundColor" red="0.65490196079999996" green="0.1647058824" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="vYw-Ge-xKy"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="KozGoPro-Regular" family="Kozuka Gothic Pro" pointSize="13"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="aEU-xm-igs" firstAttribute="top" secondItem="gYk-LY-1MS" secondAttribute="top" id="0To-Gq-vCN"/>
+                                                <constraint firstAttribute="trailing" secondItem="aif-7g-1CM" secondAttribute="trailing" id="0qC-gh-t65"/>
+                                                <constraint firstItem="aif-7g-1CM" firstAttribute="leading" secondItem="gYk-LY-1MS" secondAttribute="leading" id="96X-Q8-IGy"/>
+                                                <constraint firstAttribute="trailing" secondItem="FQP-Cz-kQK" secondAttribute="trailing" id="KYu-wS-lhm"/>
+                                                <constraint firstAttribute="trailing" secondItem="aEU-xm-igs" secondAttribute="trailing" id="SIy-1O-Xd4"/>
+                                                <constraint firstAttribute="bottom" secondItem="FQP-Cz-kQK" secondAttribute="bottom" id="Z6d-8E-rd8"/>
+                                                <constraint firstAttribute="bottom" secondItem="aEU-xm-igs" secondAttribute="bottom" id="gXq-M4-Shd"/>
+                                                <constraint firstItem="FQP-Cz-kQK" firstAttribute="top" secondItem="aif-7g-1CM" secondAttribute="bottom" id="jDQ-bu-2dw"/>
+                                                <constraint firstItem="FQP-Cz-kQK" firstAttribute="leading" secondItem="gYk-LY-1MS" secondAttribute="leading" id="oWR-as-g0x"/>
+                                                <constraint firstItem="aEU-xm-igs" firstAttribute="leading" secondItem="gYk-LY-1MS" secondAttribute="leading" id="vds-yJ-pjY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="discountLabel" destination="aif-7g-1CM" id="RBJ-zp-Myl"/>
+                                            <outlet property="ingredientsItemLabel" destination="Wlb-pR-QaJ" id="ZFB-Gh-dDD"/>
+                                            <outlet property="menuItemImageView" destination="aEU-xm-igs" id="275-dg-cc6"/>
+                                            <outlet property="menuItemNameLabel" destination="eSX-c3-uiv" id="z9G-yY-dEZ"/>
+                                            <outlet property="priceItemLabel" destination="NCz-M3-oHw" id="hUm-2R-COL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="M4Y-Lb-cyx" id="0Pk-TL-9PH"/>
+                                    <outlet property="delegate" destination="M4Y-Lb-cyx" id="W2n-U4-YwO"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="zPH-yq-ACL" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="LUx-qt-egp"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="zPH-yq-ACL" secondAttribute="bottom" id="Qie-He-AKh"/>
+                            <constraint firstAttribute="trailing" secondItem="zPH-yq-ACL" secondAttribute="trailing" id="dkC-gt-TzH"/>
+                            <constraint firstItem="zPH-yq-ACL" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="jg5-AA-Iig"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="504"/>
+                    <connections>
+                        <outlet property="tableView" destination="zPH-yq-ACL" id="slZ-bp-mLY"/>
+                        <outlet property="tableViewHeightConstraint" destination="fTa-Od-gYB" id="LJo-bt-NVz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="456"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Richard Brenson</string>
+		<key>text</key>
+		<string>Lorem ipsum dolor sit amet, est etiam doming imperdiet id. Cetero aperiri sadipscing eam an. In odio omnesque quaestio vim, perpetua theophrastus ut pro. Ne ubique periculis assueverit mei. Timeam pertinax id mel, at cum quis solum.</string>
+		<key>numberOfStars</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Emely Howkins</string>
+		<key>text</key>
+		<string>Lorem ipsum dolor sit amet, est etiam doming imperdiet id. Etiam ponderum et ius, vel et omnis vocent. Ei ferri praesent gloriatur vel, at eos aeterno volutpat, id choro insolens pro. Cu mea omnes fuisset mentitum. </string>
+		<key>numberOfStars</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Charles Ashtony</string>
+		<key>text</key>
+		<string>Lorem ipsum dolor sit amet, est etiam doming imperdiet id. Cetero aperiri Etiam ponderum et ius, vel et omnis vocent. Ei ferri praesent gloriatur vel, at eos aeterno volutpat, id choro insolens pro. Cu mea omnes fuisset mentitum. Per utamur consetetur te, vivendo deserunt intellegebat qui ex, eu saperet incorrupte duo. Mel ex propriae suscipit theophrastus, primis salutatus ad duo. Usu populo consulatu scribentur cu, id sea purto elit sale. Integre sadipscing eu nam.</string>
+		<key>numberOfStars</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Emely Howkins</string>
+		<key>text</key>
+		<string>Lorem ipsum dolor sit amet, est etiam doming imperdiet id. Etiam ponderum et ius, vel et omnis vocent. Ei ferri praesent gloriatur vel, at eos aeterno volutpat, id choro insolens pro. Cu mea omnes fuisset mentitum. Per utamur consetetur te, vivendo deserunt intellegebat qui ex, eu saperet incorrupte duo. Mel ex propriae suscipit theophrastus, primis salutatus ad duo. Usu populo consulatu scribentur cu, id sea purto elit sale. Integre sadipscing eu nam.</string>
+		<key>numberOfStars</key>
+		<integer>4</integer>
+	</dict>
+</array>
+</plist>
